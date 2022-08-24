@@ -1,0 +1,72 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fhead{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 110px;
+    gap: 25px;
+}
+#fhead>div:first-child{
+    display: flex;
+    width: 70%;
+    height: 40px;
+    padding: 20px;
+}
+#fhead>div:first-child>img{
+    height: 50px;
+    margin-right: 40px;
+}
+#fhead>div:first-child>div>h2{
+    margin: 0;
+}
+#fhead>div:nth-child(2){
+    background-color: rgba(128, 128, 128, 0.149);
+    height: 60px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+#fhead>div:nth-child(2)>div{
+    display: flex;
+}
+.down{
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    padding: 15px;
+    border: 5px solid rgb(12, 231, 12);
+    margin-left: 15%;
+}
+.down div>p{
+    font-size: 10px;
+}
+.down h3,.down img{
+    display: inline;
+}
+#s2>div>div{
+    display: flex;
+    gap: 20px;
+}
+#s3{
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.274);
+    position: absolute;
+    right: 140px;
+    top: 100px;
+}
+#recAppend{
+    margin-left: 15%;
+    width: 50%;
+    margin-top: 10%;
+}
+#recAppend img{
+    width: 60px;
+    display: inline;
+}
+.card{
+    display: flex;
+    gap: 20px;
+}

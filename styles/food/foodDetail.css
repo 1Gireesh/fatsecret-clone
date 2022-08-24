@@ -1,0 +1,58 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fhead{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 110px;
+    gap: 25px;
+}
+#fhead>div:first-child{
+    display: flex;
+    border: 5px solid rgb(91, 236, 91);
+    width: 70%;
+    height: 40px;
+    padding: 20px;
+}
+#fhead>div:first-child>img{
+    height: 50px;
+    margin-right: 40px;
+}
+#fhead>div:first-child>div>h2{
+    margin: 0;
+}
+#fhead>div:nth-child(2){
+    background-color: rgba(128, 128, 128, 0.149);
+    height: 60px;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+#fhead>div:nth-child(2)>div{
+    display: flex;
+}
+
+.greybox{
+    background-color: rgba(28, 162, 215, 0.205);
+    font-size: small;
+    padding: 10px;
+    height: 500px;
+}
+.flex{
+    display: flex;
+    gap: 50px;
+    width: 70%;
+    margin: auto;
+}
+.secHolder{
+    width: 70%;
+}
+h2>a{
+    color: black;
+    text-decoration: none;
+}
+.food-links>a{
+    font-size: 10px;
+}

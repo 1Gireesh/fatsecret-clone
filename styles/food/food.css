@@ -1,0 +1,73 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#fhead{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    height: 110px;
+    gap: 25px;
+}
+#fhead>div:first-child{
+    display: flex;
+    border: 5px solid rgb(91, 236, 91);
+}
+#fhead>div:first-child>div>h2{
+    margin: 0;
+}
+#fhead>div:nth-child(2){
+    background-color: rgba(128, 128, 128, 0.149);
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+#fhead>div:nth-child(2)>div{
+    display: flex;
+}
+#foods{
+    width: 70%;
+    margin: auto;
+   
+}
+#flex{
+     display: flex;
+     gap: 50px;
+}
+hr{
+    width: 70%;
+    margin: 0;
+}
+#foodAppend{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.card{
+    display: flex;
+    font-size: small;
+    padding: 0;
+}
+.card>h4,.card>p{
+    margin: 0;
+}
+.card>img{
+    height: 60px;
+}
+#side>span>h3{
+    display: inline;
+}
+
+ul{
+    font-size: large;
+}
+li{
+    font-size: small;
+    color: blue;
+}
+
+#side{
+    background-color: rgba(128, 128, 128, 0.321);
+    width: 30%;
+    height: 450px;
+}

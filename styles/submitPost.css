@@ -38,8 +38,6 @@
         height:100%;
         width:65%;
         border:2px solid blue;
-       
-        
     }
     #divide>#secondOuter{
         height:100%;
@@ -51,16 +49,15 @@
         width:97%;
         border:2px solid green;
     }
-    #divide>#firstOuter>#recent{
+    /*#divide>#firstOuter>#recent{
         height:75px;
-        width:97%;
+        width:100%;
         border:2px solid blue;
-    }
+    }*/
     #divide>#firstOuter>#display{
         height:96%;
         width:97%;
         border:2px solid red;
-        margin-top: 10px;
     }
     #secondOuter>#secondBorder{
       height:700px;
@@ -83,27 +80,64 @@
     }
     #calender>#calOne,#calSix{
         width:60px;
-       
+      
     }
     #calender>#calTwo,#calThree,#calFour,#calFive{
         width:120px;
+      
+    }
+    
+    #submitPost{
+        height:80px;
+        width:97%;
+        border:2px solid red;
        
     }
-    #recent{
-        display: flex;
-    }
-    #recent>#activity{
-        height:100%;
-        width:65%;
-        border:2px solid black;
+
+   
+       
         
+    
+
+   #submit{
+    font-size:13px;
+    padding-bottom:25px;
+   }
+   #display>#displayDiv{
+    height:80px;
+    width:100%;
+    border:2px solid red;
+    margin-top:20px;
+    background-color:rgb(232, 222, 185);
+    display:flex;
+   }
+   #displayDiv>#displayImg{
+    height:100%;
+    width:15%;
+    border:2px solid red;
+   }
+   #displayImg>img{
+    width:30%;
+    height:40px;
+   padding-left:60px;
+   }
+   #displayDiv>#displayText{
+    height:100%;
+    width:85%;
+    border:2px solid red;
+    text-align:left;
+    font-weight: bold;
+   }
+   #displayDown{
+    height:80px;
+    width:100%;
+    border:2px solid purple;
+    text-align: center;
+    margin-top:20px;
     }
-    #recent>#featured{
-        height:100%;
-        width:35%;
-        border:2px solid black;
-        
-    }
+
+
+
     #food>#foodOne{
        height:40px;
        border:2px solid rgb(0, 255, 42);
@@ -182,13 +216,13 @@
   #nasta>#nastaImg{
     width:20%;
     height:20px;
-   
+  
     margin-left: 2ch;
   }
   #nasta>#nastaText{
     width:30%;
     height:20px;
-   
+    
   }
   #excercise>#exImg{
     width:20%;
@@ -209,9 +243,9 @@
     margin-left: 2ch;
   }
   #history>#hisText{
-    width:50%;
+    width:45%;
     height:20px;
-    
+   
   }
   #mj>#mjImg{
     width:20%;
@@ -227,7 +261,7 @@
  #grp>#grpImg{
     width:20%;
     height:20px;
-    
+   
     margin-left: 2ch;
  }
  #grp>#grpText{
@@ -238,22 +272,22 @@
  #challenges>#challengeImg{
     width:20%;
     height:20px;
-    
+  
     margin-left: 2ch;
  }
  #challenges>#challengeText{
-    width:40%;
+    width:35%;
     height:20px;
-    
+ 
  }
 #forum>#forumImg{
     width:20%;
     height:20px;
-   
+  
     margin-left: 2ch;
 }
 #forum>#forumText{
-    width:45%;
+    width:40%;
     height:20px;
     
 }
@@ -271,13 +305,13 @@
 #cookBook>#cookBookImg{
     width:20%;
     height:20px;
-  
+   
     margin-left: 2ch;
 }
 #cookBook>#cookBookText{
-    width:40%;
+    width:35%;
     height:20px;
-  
+    
 }
 #msgs>#myMsg{
  height:20px;
@@ -286,28 +320,28 @@
 }
 #msgs>#notification{
     height:80px;
-   
+  
 
 }
 #msgs>#toolbox{
     height:120px;
-  
+   
 }
 #msgs>#member{
     height:40px;
-  
+    
 }
 
 #notiOne>#notiImg{
     width:20%;
     height:20px;
-   
+    
     margin-left: 2ch;
 }
 #notiOne>#notiText{
-    width:45%;
+    width:40%;
     height:20px;
- 
+   
 }
 #notiTwo>#inboxImg{
     width:20%;
@@ -329,7 +363,7 @@
 #notiThree>#outboxText{
     width:30%;
     height:20px;
-    
+   
 }
 #toolbox>#myTool{
  height:20px;
@@ -350,13 +384,13 @@
 #mySignature>#signImg{
     width:20%;
     height:20px;
-   
+    
     margin-left: 2ch;
 }
 #mySignature>#signText{
     width:35%;
     height:20px;
-    
+   
 
 }
 #myImage>#myImg{
@@ -373,25 +407,25 @@
 #myprofile>#profileImg{
     width:20%;
     height:20px;
-   
+  
     margin-left: 2ch;
 }
 #myprofile>#profileText{
     width:30%;
     height:20px;
-    
+   
 }
 #member>#memberImg{
     width:20%;
     height:20px;
-  
+   
     margin-left: 2ch;
     margin-top: 7px;
 }
 #member>#memberText{
-    width:65%;
+    width:60%;
     height:20px;
-  
+    
     margin-top: 7px;
 }
 #calImg>img {
@@ -624,7 +658,7 @@
     width:50%;
     border:2px solid green;
 }
-#calOne> img{
+#calOne>img{
     width:80%;
     padding: 5px;
     padding-top: 15px;
@@ -671,14 +705,240 @@
     height:20px;
     width:30%;
 }
-
+#featured{
+    padding:2ch;
+}
 
 .tag{
     color:rgb(11, 96, 149);
     font-weight:bold;
 }
 
-#home>a img{
-    height:100%;
-    width:5%;
+
+/*input box start*/
+
+#newTopic{
+    height:350px;
+    width:97%;
+    border:2px solid red;
+    margin-top: 20px;
+    background-color:rgb(247, 241, 232);
 }
+
+#msgs{
+    height:25px;
+    width:100%;
+    border:2px solid blue;
+    display:flex;
+}
+#msgs>#msgsText{
+    height:100%;
+    width:20%;
+    border:2px solid red;
+}
+
+#msgs>#msgsbold{
+    height:100%;
+    width:60%;
+    border:2px solid red;
+    display:flex;
+}
+#msgsbold>#italic{
+    height:100%;
+    width:25%;
+    border:2px solid green;
+    display:flex;
+
+}
+#msgsbold>#earth{
+    height:100%;
+    width:40%;
+    border:2px solid green;
+    margin-left: 8px;
+    display:flex;
+}
+#msgsbold>#justify{
+    height:100%;
+    width:25%;
+    border:2px solid green;
+    margin-left: 8px;
+    display: flex;
+}
+#italic>#italicOne{
+height:100%;
+width:25%;
+border:2px solid red;
+
+}
+#italic>#italicTwo{
+    height:100%;
+    width:25%;
+    border:2px solid red;
+    margin-left:4px;
+}
+#italic>#italicThree{
+    height:100%;
+    width:25%;
+    border:2px solid red;
+    margin-left:4px;
+}
+#earth>#earthOne{
+    height:100%;
+    width:20%;
+    border:2px solid red;
+}
+#earth>#earthTwo{
+    height:100%;
+    width:20%;
+    border:2px solid red;
+    margin-left:4px;
+}
+#earth>#earthThree{
+    height:100%;
+    width:20%;
+    border:2px solid red;
+    margin-left:4px;
+}
+#earth>#earthFour{
+    height:100%;
+    width:20%;
+    border:2px solid red;
+    margin-left:4px;
+}
+#justify>#justifyOne{
+    height:100%;
+    width:25%;
+    border:2px solid red;
+    margin-left:4px;
+}
+#justify>#justifyTwo{
+    height:100%;
+    width:25%;
+    border:2px solid red;
+    margin-left:4px;
+}
+#justify>#justifyThree{
+    height:100%;
+    width:25%;
+    border:2px solid red;
+    margin-left:4px;
+}
+#emoji{
+    height:170px;
+    width:95%;
+    margin:auto;
+    border:2px solid red;
+    display: flex;
+}
+#emoji>#emojiImg{
+    height:60%;
+    width:20%;
+    border:2px solid blue;
+}
+#emoji>#emojiText{
+    height:100%;
+    width:90%;
+    border:2px solid blue;
+}
+#emojiText>#InputText{
+    height:100%;
+    width:100%;
+    border:2px solid blue;
+}
+#italicOne>img{
+    height:10px;
+    width:70%;
+    margin:auto;
+}
+#italicTwo>img{
+    height:10px;
+    width:80%;
+    margin:auto;
+}
+#italicThree>img{
+    height:20px;
+    width:80%;
+    margin:auto;
+}
+#earthOne>img{
+    height:20px;
+    width:80%;
+    margin:auto;
+}
+#earthTwo>img{
+    height:20px;
+    width:90%;
+    margin:auto;
+}
+#earthThree>img{
+    height:22px;
+    width:95%;
+    margin:auto;
+}
+#earthFour>img{
+    height:22px;
+    width:95%;
+    margin:auto;
+}
+#justifyOne>img{
+    height:20px;
+    width:90%;
+    margin:auto; 
+}
+#justifyTwo>img{
+    height:20px;
+    width:90%;
+    margin:auto; 
+}
+#justifyThree>img{
+    height:18px;
+    width:90%;
+    margin:auto; 
+}
+#button{
+    height:30px;
+    width:40%;
+    border:2px solid green;
+    margin-top: 20px;
+    margin-left:55%;
+    display: flex;
+}
+#button>#btnOne{
+    height:80%;
+    width:40%;
+    border:2px solid blue;
+    background-color: rgb(18, 205, 18);
+    color:white;
+    font-weight: bold;
+    text-align: center;
+}
+#button>#btnTwo{
+    height:80%;
+    width:30%;
+    border:2px solid blue;
+    margin-left:4px;
+    background-color: rgb(18, 205, 18);
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    text-decoration:none;
+}
+#button>#btnThree{
+    height:80%;
+    width:30%;
+    border:2px solid blue;
+    margin-left:4px;
+    background-color:rgba(240, 248, 255, 0.792);
+    color:blue;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

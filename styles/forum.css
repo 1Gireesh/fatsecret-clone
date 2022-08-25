@@ -38,8 +38,6 @@
         height:100%;
         width:65%;
         border:2px solid blue;
-       
-        
     }
     #divide>#secondOuter{
         height:100%;
@@ -60,7 +58,6 @@
         height:96%;
         width:97%;
         border:2px solid red;
-        margin-top: 10px;
     }
     #secondOuter>#secondBorder{
       height:700px;
@@ -98,15 +95,49 @@
         border:2px solid black;
         
     }
-    #recent>#featured{
-        height:100%;
-        width:35%;
-        border:2px solid black;
-        
+
+   #submit{
+    font-size:13px;
+    padding-bottom:25px;
+   }
+   #display>#displayDiv{
+    height:80px;
+    width:100%;
+   
+    margin-top:20px;
+    background-color:rgb(232, 222, 185);
+    display:flex;
+   }
+   #displayDiv>#displayImg{
+    height:100%;
+    width:15%;
+  
+   }
+   #displayImg>img{
+    width:30%;
+    height:40px;
+   padding-left:60px;
+   }
+   #displayDiv>#displayText{
+    height:100%;
+    width:85%;
+   
+    text-align:left;
+    font-weight: bold;
+   }
+   #displayDown{
+    height:80px;
+    width:100%;
+   
+    text-align: center;
+    margin-top:20px;
     }
+
+
+
     #food>#foodOne{
        height:40px;
-       border:2px solid rgb(0, 255, 42);
+      
     }
     #food>#foodTwo{
        height:110px;
@@ -193,14 +224,14 @@
   #excercise>#exImg{
     width:20%;
     height:20px;
-   
+    
     margin-left: 2ch;
 
   }
   #excercise>#exText{
     width:30%;
     height:20px;
-   
+    
   }
   #history>#hisImg{
     width:20%;
@@ -209,7 +240,7 @@
     margin-left: 2ch;
   }
   #history>#hisText{
-    width:50%;
+    width:45%;
     height:20px;
     
   }
@@ -227,22 +258,22 @@
  #grp>#grpImg{
     width:20%;
     height:20px;
-    
+  
     margin-left: 2ch;
  }
  #grp>#grpText{
     width:30%;
     height:20px;
-   
+  
  }
  #challenges>#challengeImg{
     width:20%;
     height:20px;
-    
+   
     margin-left: 2ch;
  }
  #challenges>#challengeText{
-    width:40%;
+    width:35%;
     height:20px;
     
  }
@@ -253,7 +284,7 @@
     margin-left: 2ch;
 }
 #forum>#forumText{
-    width:45%;
+    width:40%;
     height:20px;
     
 }
@@ -271,17 +302,17 @@
 #cookBook>#cookBookImg{
     width:20%;
     height:20px;
-  
+ 
     margin-left: 2ch;
 }
 #cookBook>#cookBookText{
-    width:40%;
+    width:35%;
     height:20px;
-  
+   
 }
 #msgs>#myMsg{
  height:20px;
-
+ 
  margin-left: 2ch;
 }
 #msgs>#notification{
@@ -291,11 +322,11 @@
 }
 #msgs>#toolbox{
     height:120px;
-  
+    
 }
 #msgs>#member{
     height:40px;
-  
+    
 }
 
 #notiOne>#notiImg{
@@ -305,35 +336,35 @@
     margin-left: 2ch;
 }
 #notiOne>#notiText{
-    width:45%;
+    width:40%;
     height:20px;
- 
+  
 }
 #notiTwo>#inboxImg{
     width:20%;
     height:20px;
-   
+    
     margin-left: 2ch;
 }
 #notiTwo>#inboxText{
     width:30%;
     height:20px;
-   
+  
 }
 #notiThree>#outboxImg{
     width:20%;
     height:20px;
-    
+   
     margin-left: 2ch;
 }
 #notiThree>#outboxText{
     width:30%;
     height:20px;
-    
+  
 }
 #toolbox>#myTool{
  height:20px;
- border:2px solid red;
+ 
  margin-left: 2ch;
 }
 #mybio>#mybioImg{
@@ -356,7 +387,7 @@
 #mySignature>#signText{
     width:35%;
     height:20px;
-    
+   
 
 }
 #myImage>#myImg{
@@ -379,19 +410,19 @@
 #myprofile>#profileText{
     width:30%;
     height:20px;
-    
+   
 }
 #member>#memberImg{
     width:20%;
     height:20px;
-  
+   
     margin-left: 2ch;
     margin-top: 7px;
 }
 #member>#memberText{
-    width:65%;
+    width:60%;
     height:20px;
-  
+   
     margin-top: 7px;
 }
 #calImg>img {
@@ -624,7 +655,7 @@
     width:50%;
     border:2px solid green;
 }
-#calOne> img{
+#calOne>img{
     width:80%;
     padding: 5px;
     padding-top: 15px;
@@ -671,14 +702,13 @@
     height:20px;
     width:30%;
 }
-
+#featured{
+    padding:2ch;
+}
 
 .tag{
     color:rgb(11, 96, 149);
     font-weight:bold;
 }
 
-#home>a img{
-    height:100%;
-    width:5%;
-}
+

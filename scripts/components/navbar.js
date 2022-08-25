@@ -1,6 +1,5 @@
 export default function navbar() {
-  return (
-    <nav>
+  return `<nav>
       <div class="nav_top">
         <div class="nav_top_box">
           <a href="">Register</a>
@@ -45,6 +44,10 @@ export default function navbar() {
           </div>
         </div>
       </div>
-    </nav>
-  );
+    </nav>`;
 }
+// attach this script so that you get icons 
+//  <script
+//    src="https://kit.fontawesome.com/dc62d44e03.js"
+//    crossorigin="anonymous"
+//  ></script>;

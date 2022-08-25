@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/dc62d44e03.js"
+      crossorigin="anonymous"
+    ></script>
+ 
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css">
+    <style>
+        .TopLevelHeader.challenge {
+        background: url(https://static.fatsecret.com/static/images/def20/TL_community.png) no-repeat 15px 10px;
+    }
+    .TopLevelHeader {
+    border: 4px solid #33B34B;
+    padding: 24px 0px;
+    width: 50%;
+    margin-left: 12%;
+}
+ .TopLevelHeader h1 {
+    color: #5E5E53;
+    font: bold 26px Helvetica,Arial;
+    margin: 0px;
+    padding-left: 136px;
+}
+.TopLevelHeader .desc {
+    padding-left: 130px;
+    color: #333;
+    font-size: 13px;
+    line-height: 18px;
+    word-break: break-word;
+}
+#h{
+    margin-top: 15px;
+    margin-left: 170px;
+}
+#mid{
+  
+    height: 200px;
+    width: 679px;
+    margin-left: 161px;
+    display: flex;
+    
+}
+#mid >div{
+  
+    height: 200px;
+    width: 330px;
+    margin: auto;
+    
+}
+#mid2{
+  
+  height: 200px;
+  width: 679px;
+  margin-left: 161px;
+  display: flex;
+  
+}
+#mid2 >div{
+
+  height: 200px;
+  width: 330px;
+  margin: auto;
+  
+}
+#mid3{
+  
+  height: 200px;
+  width: 679px;
+  margin-left: 161px;
+  display: flex;
+  
+}
+#mid3 >div{
+
+  height: 200px;
+  width: 330px;
+  margin: auto;
+  
+}
+#mid4{
+  
+  height: 200px;
+  width: 679px;
+  margin-left: 161px;
+  display: flex;
+  
+}
+#mid4 >div{
+
+  height: 200px;
+  width: 330px;
+  margin: auto;
+  
+}
+.smallText {
+    font-size: 15px;
+    line-height: 15px;
+}
+a {
+    color: #028CC4;
+    text-decoration: none;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        
+    </div>
+    <div class="TopLevelHeader challenge" style="margin-top: 10px">
+        <h1>Challenges</h1>
+        <div class="desc">
+          Find a Challenge that's right for you and start
+          achieving your goals today!
+        </div>
+      </div>
+      <h2 id="h">
+        <img
+          src="https://a.ftscrt.com/static/images/box/challengeicon.gif"
+          style="vertical-align: middle"
+        />
+        Challenges You Can Join Right Now!
+      </h2>
+      <div id="mid">
+        <div  style="height: auto;width: auto;">
+     <a href="#"><img src="https://raw.githubusercontent.com/hackerrahul123/Team15/master/1.png" ></a>
+        </div>
+        <div style="height: auto;width: auto;">
+            <a href="#"><img src="https://raw.githubusercontent.com/hackerrahul123/Team15/master/2.png" ></a>
+
+        </div> 
+
+
+      </div>
+<div id="mid2">
+        <div  style="height: auto;width: auto;">
+     <a href="#"><img src="https://raw.githubusercontent.com/hackerrahul123/Team15/master/3.png" ></a>
+        </div>
+        <div style="height: auto;width: auto;">
+            <a href="#"><img src="https://raw.githubusercontent.com/hackerrahul123/Team15/master/4.png" ></a>
+
+        </div> 
+               
+
+      </div>
+      <div align="right" class="smallText" style="margin-right: 500px">
+        <b><a href="#">find more challenges</a></b>
+      </div>
+      <h2 id="h">
+        <img
+          src="https://a.ftscrt.com/static/images/box/challengeicon.gif"
+          style="vertical-align: middle"
+        />
+        Challenges In Progress
+      </h2>
+      <div id="mid3">
+        <div  style="height: auto;width: auto;">
+            <a href="#"><img src="https://raw.githubusercontent.com/hackerrahul123/Team15/master/5.png" ></a>
+               </div>
+               <div style="height: auto;width: auto;">
+                   <a href="#"><img src="https://raw.githubusercontent.com/hackerrahul123/Team15/master/6.png" ></a>
+       
+               </div> 
+      </div>
+      <div id="mid4"> 
+        <div  style="height: auto;width: auto;">
+            <a href="#"><img src="https://raw.githubusercontent.com/hackerrahul123/Team15/master/7.png" ></a>
+               </div>
+               <div style="height: auto;width: auto;">
+                   <a href="#"><img src="https://raw.githubusercontent.com/hackerrahul123/Team15/master/8.png" ></a>
+       
+               </div> 
+      </div>
+      <div align="right" class="smallText" style="margin-right: 500px">
+        <b><a href="#">find more challenges</a></b>
+      </div>
+
+      <div id="footer"></div>
+    
+</body>
+</html>
+<script type="module">
+    import navbar from "./scripts/components/navbar.js"
+    document.getElementById("nav").innerHTML = navbar();
+    import footer from "./scripts/components/footer.js"
+    document.getElementById("footer").innerHTML = footer();
+
+</script>

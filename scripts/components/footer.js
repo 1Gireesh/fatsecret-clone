@@ -1,5 +1,5 @@
-export default function footer(){
- return(<footer>
+export default function footer() {
+  return `<footer>
     <div class="footer_sec_1">
       <p>Get the app</p>
       <div>
@@ -53,5 +53,11 @@ export default function footer(){
       </div>
     </div>
     <div class="footer_sec_3">© 2022 FatSecret. All rights reserved.</div>
-  </footer>);
+  </footer>`;
 }
+
+// attach this script so that you get icons 
+//  <script
+//    src="https://kit.fontawesome.com/dc62d44e03.js"
+//    crossorigin="anonymous"
+//  ></script>;

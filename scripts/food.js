@@ -8,8 +8,31 @@ async function searchFood(qry){
     let res = await fetch(`https://api.spoonacular.com/recipes/complexSearch?apiKey=${api2}&query=${qry}`);
     let data = await res.json();
     console.log(data);
+    foodsearchdisplay(data.results)
 }
-// searchFood("pasta");
+
+
+document.getElementById('Search').addEventListener("click",(e)=>{
+    searchFood(document.getElementById('Searchi').value);    
+});
+
+function foodsearchdisplay(data){
+    console.log(data);
+    document.getElementById('foodAppend').innerHTML="";
+    data.map((e)=>{
+        let card = document.createElement("div");
+   card.classList.add("card");
+   card.innerHTML=`
+   <img src="${e.image}" alt="">
+   <div>
+   <h4><a href="foodDetail.html">${e.title}</a></h4>
+   </div>
+   `;
+   console.log(card,document.getElementById('foodAppend'))
+   document.getElementById('foodAppend').append(card);   
+   })
+    
+}
 
 async function getFood(){
 
@@ -34,9 +57,5 @@ function displayFoods(data){
     `;
     document.getElementById('foodAppend').append(card);   
     })
-
-}
-
-function debouncing(){
 
 }

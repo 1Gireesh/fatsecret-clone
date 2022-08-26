@@ -1,0 +1,53 @@
+section{
+    width: 65%;
+}
+.addbtn{
+    display: flex;
+}
+.addbtn>img{
+    position: relative;
+    top: 20px;
+    width: 15px;
+    height: 15px;
+}
+
+h4{
+    color: rgb(16, 199, 16);
+    /* border: 5px solid rgba(128, 128, 128, 0.668); */
+}
+.addbtn{
+    border: 5px solid rgba(134, 147, 161, 0.258);
+    height: 50px;
+}
+.addFood{
+    display: flex;
+}
+.results{
+    width: 450px;
+    height: 300px;
+    border: 2px orange solid;
+}
+#breakfast{
+    margin-left: 15%;
+}
+.side{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ser{
+    margin: 15px;
+}
+#search{
+    width: 400px;
+    height: 25px;
+    border: 1px solid blue;
+}
+.ser>img{
+    position: relative;
+    bottom: -10px;
+}
+.results{
+    overflow: scroll;
+}

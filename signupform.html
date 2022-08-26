@@ -1,12 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-  
-</body>
+  <head>
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="./signup_form.css" />
+    <script src="./signup_form.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <!-- **form container start here -->
+      <div class="form_container">
+        <!-- **form head start here -->
+        <div class="form_head">
+          <img
+            src="https://a.ftscrt.com/static/images/def20/Fatsecret_logo.png"
+            alt=""
+          />
+          <h1>My FatSecret Account</h1>
+        </div>
+        <!-- **form head ends here -->
+        <!-- **form body start here -->
+        <div class="form_body">
+          <form action="">
+            <div class="mydetails">
+              <h1>My Details</h1>
+              <div class="my_det_box">
+                <div class="labels">
+                  <p>Gender :</p>
+                  <p>Current Weight :</p>
+                  <p>Height :</p>
+                  <p>Date of Birth :</p>
+                  <p>Activity Level* :</p>
+                </div>
+                <div class="values">
+                  <div id="gender">
+                    <input
+                      type="radio"
+                      value="female"
+                      id="female"
+                      name="_gender"
+                    />
+                    <label for="female">Female</label>
+                    <input type="radio" value="male" id="male" name="_gender" />
+                    <label for="male">Male</label>
+                  </div>
+                  <div>
+                    <input type="number" id="cur_wt" />
+                    <p>kg</p>
+                    <span>(switch to lb)</span>
+                  </div>
+                  <div>
+                    <input type="text" id="cur_ht" />
+                    <p>cm</p>
+                    <span>(switch to inches)</span>
+                  </div>
+                  <div>
+                    <input type="date" id="dob" />
+                  </div>
+                  <div>
+                    <div>
+                      <input
+                        type="radio"
+                        id="act_lvl_1"
+                        name="activity level"
+                        value="sedentary"
+                      />
+                      <label for="act_lvl_1"> Sedentary </label>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        id="act_lvl_2"
+                        name="activity level"
+                        value="low_active"
+                      />
+                      <label for="act_lvl_2">Low Active</label>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        id="act_lvl_3"
+                        name="activity level"
+                        value="active"
+                      />
+                      <label for="act_lvl_3">Active</label>
+                    </div>
+                    <div>
+                      <input
+                        type="radio"
+                        id="act_lvl_4"
+                        name="activity level"
+                        value="very active"
+                      />
+                      <label for="act_lvl_4">Very Active</label>
+                    </div>
+                  </div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+            <div class="mygoals">
+              <h1>My Goals</h1>
+              <div>
+                <div class="mgoal_param">
+                  <p>Diet Goal :</p>
+                  <p>Goal Weight :</p>
+                </div>
+                <div class="mgoal_values">
+                  <div>
+                    <select name="" id="deit_goal">
+                      <option value="weight gain">Weight gain</option>
+                      <option value="slow weight gain">Slow Weight gain</option>
+                      <option value="current weight">
+                        Maintain my current Weight
+                      </option>
+                      <option value="slow weight loss">Slow Weight loss</option>
+                      <option value="weight loss">Weight loss</option>
+                    </select>
+                  </div>
+                  <div>
+                    <input type="number" id="goal_weight" />
+                    <p>kg</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="fatsecretaccount">
+              <h1>FatSecret Account</h1>
+              <div class="fatsecretaccount_box">
+                <div class="acc_param">
+                  <p>Member Name:</p>
+                  <p>Password:</p>
+                  <p>Email Address:</p>
+                </div>
+                <div class="acc_values">
+                  <input type="text" id="name" />
+                  <input type="password" id="password" />
+                  <input type="email" id="email" />
+                </div>
+              </div>
+            </div>
+            <div class="submit">
+              <div class="terms">
+                <p>
+                  By clicking 'Next', you agree to the FatSecret
+                  <a href="">Terms and Conditions</a> and
+                  <a href="">Privacy Policy</a>
+                </p>
+              </div>
+              <div class="btn_box">
+                <button id="cancel">Cancel</button>
+                <button type="submit" id="submit">Next</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- **form body ends here -->
+      </div>
+      <!-- **form container ends here -->
+    </div>
+  </body>
 </html>

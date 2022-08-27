@@ -14,10 +14,10 @@
     <style>
         #frame{
             height: 600px;
-            border: 1px solid red;
+            /* border: 1px solid red; */
         }
         #frame>#age{
-            border: 2px solid hotpink;
+            /* border: 2px solid hotpink; */
             width: 70%;
             display: flex;
             justify-content: center;
@@ -25,21 +25,25 @@
             gap: 30px;
         }
         #frame>#age >#main1{
-            border: 2px solid green;
+            border: 2px solid rgb(87, 240, 87);
             height: 200px;
             width: 65%;
             height: 500px;
+            margin-top: 20px;
         }
         #frame>#age>#main2{
-            border: 2px solid green;
-            height: 200px;
-            width: 30%;
+            /* border: 2px solid green; */
+            height: 100px;
+            width: 25%;
             background-color: rgb(234, 226, 226);
+            font-size: 15px;
+            margin-top: 20px;
+            padding: 10px 10px;
             
             
         }
         #inner{
-            border: 1px solid darkblue;
+            /* border: 1px solid darkblue; */
             height: 300px;
             margin: 60px;
             display:grid;
@@ -49,7 +53,7 @@
             gap: 30px;
         }
         #inner>#inner_1{
-            border: 1px solid darkblue;
+            /* border: 1px solid darkblue; */
             height: 250px;
             
             width: 100%;
@@ -60,31 +64,47 @@
         }
         
         #inner>#inner_2{
-            border: 1px solid darkblue;
+            /* border: 1px solid darkblue; */
             height: 200px;
+            font-size: 15px;
             
             width: 100%;
            
         }
         #inner>#inner_3{
-            border: 1px solid darkblue;
-            height: 380px;
+            /* border: 1px solid darkblue; */
+            height: 270px;
+            font-size: 15px;
             
             width: 100%;
-            background-color: rgb(234, 226, 226);
+            background-color: rgb(247, 239, 239);
+            padding-left: 10px;
            
         }
         #inner>#inner_4{
-          
-            border: 1px solid rgb(149, 149, 223) ;
-            
-            border-radius: 5px;
-            text-align: center;
+            font-size: 15px;    
             color: blue;
-            margin-top:50px;
-            
+            margin-top:-30px;
+             text-align: center;
+        }
+
+        #outer{
+            padding: 10px 20px;
+            border: 1px solid blue;
+            text-align: center;
+            width: 200px;
+            margin-left: 50px;
+            margin-top: -50px;
+            font-size: 20px;
+            border-radius: 10px;
         }
         
+
+        table.generic, table.orangebox, table.greybox, table.lightcurvedbox, table.orangecurvedbox, table.orangeborderbox, table.greencurvedbox, table.lightbordercurvedbox, table.blueedgebox, table.lightcurvedrow, table.lightbordercurvedrow, table.lightreversebox, table.darkbluecurvedbox {
+    border-collapse: collapse;
+    border-spacing: 0px;
+    width: 100%;
+}
 
 
         
@@ -111,31 +131,46 @@
                 <h3>0</h3>
                 </div>
                 <div id="inner_3">
+                    <br>
                     <P>WEIGHT HISTORY</P>
-                    <P> </P>
+                    <br>
+        
                     <P>Start Weight</P>
                     <h3 style="color: blue;">60kg</h3>
-                    <p></p>
+                    <br>
                     <p>Current Weight</p>
                     <h3>60kg</h3>
                     <p>Performance <span style="font-weight: bold;">:steady</span></p>
+                    <br>
 
                     <p>Goal Weight</p>
                     <h3>55kg</h3>
                     <p>Still to go <span><h3>5 kg</h3></span></p>
 
                 </div>
-                <div id="inner_4">Enter your Bio</div>
+                <div id="inner_4"><h3>Profile Name</h3></div>
+                
+            </div>
+            <div id="outer"><p>Enter Bio</p></div>
             </div>
             
-            </div>
             <div id="main2">
                 <h3 style="margin-left: 20px;">Other Related Links</h3>
+                <br>
                 <h5 style="margin-left: 20px;">Members</h5>
-                <table>
-                    <tr>Member</tr>
-                    <tr>Forums</tr>
-                </table>
+                <hr>
+               
+                <table class="generic">
+                    <tbody><tr>
+                        <td width="50%">
+                            <a class="alt" title="journals" href=""><span class="users_b">&nbsp;</span> <span><img src="" alt=""></span> Members</a>
+                        </td>
+                        <td width="50%">
+                            <a class="alt" title="forums" href=""><span class="quote_b">&nbsp;</span>Forums</a>
+                        </td>
+                    </tr>
+                </tbody></table>
+                
 
             </div>
         </div>

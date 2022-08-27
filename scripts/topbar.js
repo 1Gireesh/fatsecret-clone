@@ -5,7 +5,7 @@ function topbar(){
 var n = date.toDateString();
 let d = n.slice(8,10);
 
-console.log(d)
+
     return `
         
   <div id="topbar">
@@ -69,7 +69,9 @@ console.log(d)
     </div>
   </div>
   <div style="display: flex;">
+  <a href="foodadd.html">
     <img class="hov" src="https://static.fatsecret.com/static/images/def20/TL_foods.png" alt="">
+      </a>  
      <span style="display: flex;
      flex-direction: column;
      ">
@@ -78,7 +80,10 @@ console.log(d)
     </span>
   </div>
   <div>
-    <img class="hov" src="https://cdn-icons-png.flaticon.com/128/744/744456.png" alt="">
+ 
+
+  <img class="hov" src="https://cdn-icons-png.flaticon.com/128/744/744456.png" alt="">
+
     <span style="color: green;
     font-size: smaller;
     ">0 kcal</span>
@@ -105,9 +110,11 @@ console.log(d)
   #topbar {
     border: 2px solid black;
     display: flex;
-    width: 70%;
+    width: 650px;
     margin: auto;
     gap: 30px;
+    margin-top: 3%;
+    margin-bottom: 2%;
   }
   
   * {
@@ -126,6 +133,7 @@ console.log(d)
     position: absolute;
     display: flex;
     width: 250px;
+    height: 100px;
     padding: 0;
     flex-direction: column;
   }
@@ -142,7 +150,7 @@ console.log(d)
     grid-template-columns: repeat(7,1fr);
   }
   li{
-    font-size: smaller;
+    // font-size: smaller;
     color: blue;
   }
   .today{
@@ -179,7 +187,7 @@ console.log(d)
   }
 </style>
 
-    `
+    `;
 }
 
-export default topbar;
+document.querySelector("#tp").innerHTML = topbar();

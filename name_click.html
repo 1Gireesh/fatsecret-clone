@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #frame{
+            height: 600px;
+            border: 1px solid red;
+        }
+        #frame>#age{
+            border: 2px solid hotpink;
+            width: 70%;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+            gap: 30px;
+        }
+        #frame>#age >#main1{
+            border: 2px solid green;
+            height: 200px;
+            width: 65%;
+            height: 500px;
+        }
+        #frame>#age>#main2{
+            border: 2px solid green;
+            height: 200px;
+            width: 30%;
+            background-color: rgb(234, 226, 226);
+            
+            
+        }
+        #inner{
+            border: 1px solid darkblue;
+            height: 300px;
+            margin: 60px;
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: repeat(2,1fr);
+
+            gap: 30px;
+        }
+        #inner>#inner_1{
+            border: 1px solid darkblue;
+            height: 250px;
+            
+            width: 100%;
+           
+        }
+        #inner>#inner_1>img{
+            width: 100%;
+        }
+        
+        #inner>#inner_2{
+            border: 1px solid darkblue;
+            height: 200px;
+            
+            width: 100%;
+           
+        }
+        #inner>#inner_3{
+            border: 1px solid darkblue;
+            height: 380px;
+            
+            width: 100%;
+            background-color: rgb(234, 226, 226);
+           
+        }
+        #inner>#inner_4{
+          
+            border: 1px solid rgb(149, 149, 223) ;
+            
+            border-radius: 5px;
+            text-align: center;
+            color: blue;
+            margin-top:50px;
+            
+        }
+        
+
+
+        
+    </style>
+</head>
+<body>
+    <div id="frame">
+        <div id="age">
+            <div id="main1">
+                <div id="inner">
+                <div id="inner_1">
+                    <img src="https://m.ftscrt.com/static/member/_soda_shared.jpg" alt="">
+                    
+                </div>
+                
+                <div id="inner_2">
+
+                    <p>POSTS</p>
+                <h3>0</h3>
+                <p>POSTS</p>
+                <h3>0</h3>
+                <p>POSTS</p>
+                <h3>0</h3>
+                </div>
+                <div id="inner_3">
+                    <P>WEIGHT HISTORY</P>
+                    <P> </P>
+                    <P>Start Weight</P>
+                    <h3 style="color: blue;">60kg</h3>
+                    <p></p>
+                    <p>Current Weight</p>
+                    <h3>60kg</h3>
+                    <p>Performance <span style="font-weight: bold;">:steady</span></p>
+
+                    <p>Goal Weight</p>
+                    <h3>55kg</h3>
+                    <p>Still to go <span><h3>5 kg</h3></span></p>
+
+                </div>
+                <div id="inner_4">Enter your Bio</div>
+            </div>
+            
+            </div>
+            <div id="main2">
+                <h3 style="margin-left: 20px;">Other Related Links</h3>
+                <h5 style="margin-left: 20px;">Members</h5>
+                <table>
+                    <tr>Member</tr>
+                    <tr>Forums</tr>
+                </table>
+
+            </div>
+        </div>
+        
+    
+       
+    </div>
+</body>
+</html>

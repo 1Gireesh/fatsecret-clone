@@ -25,28 +25,28 @@ export default function navbar() {
       <div class="nav_bottom">
         <div class="nav_bottom_box">
           <div>
-            <a href="">MY FATSECRET</a>
+            <a href="postpage.html">MY FATSECRET</a>
           </div>
           <div>
-            <a href="">FOODS</a>
+            <a href="food.html">FOODS</a>
           </div>
           <div>
-            <a href="">RECIPIES</a>
+            <a href="recipes.html">RECIPIES</a>
           </div>
           <div>
-            <a href="">FITNESS</a>
+      <a href="challenge.html">CHALLENGES</a>
+    </div>
+          <div>
+            <a href="fitnees.html">FITNESS</a>
           </div>
           <div>
-            <a href="">COMMUNITY</a>
-          </div>
-          <div>
-            <a href=""></a>
+            <a href="community.html">COMMUNITY</a>
           </div>
         </div>
       </div>
     </nav>`;
 }
-// attach this script so that you get icons 
+// attach this script so that you get icons
 //  <script
 //    src="https://kit.fontawesome.com/dc62d44e03.js"
 //    crossorigin="anonymous"

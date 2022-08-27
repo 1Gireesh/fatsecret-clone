@@ -46,6 +46,7 @@ hr{
 .card{
     display: flex;
     font-size: small;
+    margin: 20px;
     padding: 0;
 }
 .card>h4,.card>p{

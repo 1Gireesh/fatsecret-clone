@@ -7,10 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/food/food.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/footer.css">
 </head>
 
 <body>
-    <div id="nav"></div>
+    <div class="nv"></div>
     <div id="fhead">
         <div>
             <img src="https://static.fatsecret.com/static/images/def20/TL_foods.png" alt="">
@@ -63,11 +65,14 @@
         </div>
 
     </div>
-
-    <script src="scripts/food.js"></script>
+    <div class="ft"></div>
+    
 </body>
-
-</html>
 <script type="module">
-
-</script>
+        import navbar from "./scripts/components/navbar.js";
+        import footer from "./scripts/components/footer.js";
+      document.querySelector('.nv').innerHTML=navbar();
+      document.querySelector('.ft').innerHTML=footer();
+      </script>
+    <script src="scripts/food.js"></script>
+</html>

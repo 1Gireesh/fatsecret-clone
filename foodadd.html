@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="styles/footer.css">
   <link rel="stylesheet" href="styles/submitPost.css">
+  <link rel="stylesheet" href="styles/navbar.css">
   <link rel="stylesheet" href="styles/foodadd.css">
 </head>
 
 <body>
+  <div class="nv"></div>
   <section>
 
 
@@ -18,6 +20,10 @@
     <div> 
       <div id="breakfast">
       <h2>Breakfast</h2>
+      <div class="fds">
+        
+      </div>
+
       <div class="addbtn">
         <img id="click" src="https://cdn-icons-png.flaticon.com/128/2377/2377839.png" alt="">
         <h4 style="cursor: pointer;">Add Item</h4>
@@ -27,6 +33,9 @@
     <div> 
       <div id="breakfast">
       <h2>Launch</h2>
+      <div class="fds">
+        
+      </div>
       <div class="addbtn">
         <img id="click" src="https://cdn-icons-png.flaticon.com/128/2377/2377839.png" alt="">
         <h4 style="cursor: pointer;">Add Item</h4>
@@ -36,6 +45,9 @@
     <div> 
       <div id="breakfast">
       <h2>Dinner</h2>
+      <div class="fds">
+        
+      </div>
       <div class="addbtn">
         <img id="click" src="https://cdn-icons-png.flaticon.com/128/2377/2377839.png" alt="">
         <h4 style="cursor: pointer;">Add Item</h4>
@@ -45,6 +57,9 @@
     <div> 
       <div id="breakfast">
       <h2>Snacks/extra</h2>
+      <div class="fds">
+        
+      </div>
       <div class="addbtn">
         <img id="click" src="https://cdn-icons-png.flaticon.com/128/2377/2377839.png" alt="">
         <h4 style="cursor: pointer;">Add Item</h4>
@@ -60,11 +75,17 @@
     <div id="dinner"></div>
     <div id="Snacks/Other	"></div>
   </section>
+  <div class="ft"></div>
 </body>
-
-</html>
 <script type="module">
-  import topbar from './scripts/topbar.js'
-  document.querySelector("#tp").innerHTML = topbar();
+  import navbar from "./scripts/components/navbar.js";
+  import footer from "./scripts/components/footer.js";
+document.querySelector('.nv').innerHTML=navbar();
+document.querySelector('.ft').innerHTML=footer();
+</script>
+</html>
+
+<script src="scripts/topbar.js">
+    
 </script>
 <script src="scripts/foodadd.js"></script>

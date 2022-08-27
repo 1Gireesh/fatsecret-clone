@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 50%;
+  border: 1px solid #000;
+  margin: auto;
+  /* height: 100vh; */
+}
+.post_container {
+  max-width: 70%;
+  border: 1px solid rgb(161, 20, 20);
+  /* height: 600px; */
+  background: rgb(233, 234, 237);
+  padding: 20px;
+}
+.post_img {
+  margin-top: 30px;
+}
+.post_img img {
+  width: 510px;
+  height: 510px;
+}
+.post_box {
+  display: flex;
+  background: white;
+  padding: 10px;
+  gap: 10px;
+}
+.username {
+  font-size: 18px;
+  color: rgb(66, 135, 244);
+}
+.username:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.post_desc {
+  font-size: 15px;
+  padding: 2px;
+}
+.post_time {
+  color: rgb(211, 174, 174);
+  font-size: 13px;
+}
+.comment_box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 15px;
+}
+.comment_box > input {
+  height: 50px;
+  width: 400px;
+  font-size: 16px;
+  padding: 0px 5px;
+}
+.comment_box > input:focus {
+  outline: none;
+  border: 3px solid rgb(52, 175, 15);
+}
+#cmnt_submit {
+  border: none;
+  padding: 5px;
+  background: rgb(75, 218, 75);
+  color: white;
+  cursor: pointer;
+}
+#cmnt_submit:hover {
+  background: rgb(27, 156, 27);
+}
+#cmnt_cancel {
+  border: none;
+  padding: 5px;
+  background: red;
+  color: white;
+  cursor: pointer;
+}
+#cmnt_cancel:hover {
+  background: rgb(167, 23, 23);
+}

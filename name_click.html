@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles/navbar.css" class="css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <script
+      src="https://kit.fontawesome.com/dc62d44e03.js"
+      crossorigin="anonymous"
+    ></script>
     <style>
         #frame{
             height: 600px;
@@ -85,6 +91,7 @@
     </style>
 </head>
 <body>
+    <div id="nav"></div>
     <div id="frame">
         <div id="age">
             <div id="main1">
@@ -133,8 +140,16 @@
             </div>
         </div>
         
-    
+        
+    <div id="footer"></div>
        
     </div>
 </body>
 </html>
+<script type="module">
+    import navbar from "./scripts/components/navbar.js"
+    document.getElementById("nav").innerHTML = navbar();
+    import footer from "./scripts/components/footer.js"
+    document.getElementById("footer").innerHTML = footer();
+
+</script>

@@ -49,6 +49,11 @@ function formsubmit() {
     deit_goal: deit_goal,
     weight_goal: goal_weight,
   };
+  let cred = {
+    signinkey: true,
+    name: member_name,
+  };
+  localStorage.setItem("cred", JSON.stringify(cred));
   console.log(obj);
   userdata.push(obj);
   localStorage.setItem("fatsecret_data", JSON.stringify(userdata));

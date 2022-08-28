@@ -1,190 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="styles/navbar.css" class="css">
-    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/navbar.css" class="css" />
+    <link rel="stylesheet" href="styles/footer.css" />
     <script
       src="https://kit.fontawesome.com/dc62d44e03.js"
       crossorigin="anonymous"
     ></script>
     <style>
-        #frame{
-            height: 600px;
-            /* border: 1px solid red; */
-        }
-        #frame>#age{
-            /* border: 2px solid hotpink; */
-            width: 70%;
-            display: flex;
-            justify-content: center;
-            margin: auto;
-            gap: 30px;
-        }
-        #frame>#age >#main1{
-            border: 2px solid rgb(87, 240, 87);
-            height: 200px;
-            width: 65%;
-            height: 500px;
-            margin-top: 20px;
-        }
-        #frame>#age>#main2{
-            /* border: 2px solid green; */
-            height: 100px;
-            width: 25%;
-            background-color: rgb(234, 226, 226);
-            font-size: 15px;
-            margin-top: 20px;
-            padding: 10px 10px;
-            
-            
-        }
-        #inner{
-            /* border: 1px solid darkblue; */
-            height: 300px;
-            margin: 60px;
-            display:grid;
-            grid-template-columns: repeat(3,1fr);
-            grid-template-rows: repeat(2,1fr);
+      #frame {
+        height: 600px;
+        /* border: 1px solid red; */
+      }
+      #frame > #age {
+        /* border: 2px solid hotpink; */
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        gap: 30px;
+      }
+      #frame > #age > #main1 {
+        border: 2px solid rgb(87, 240, 87);
+        height: 200px;
+        width: 65%;
+        height: 500px;
+        margin-top: 20px;
+      }
+      #frame > #age > #main2 {
+        /* border: 2px solid green; */
+        height: 100px;
+        width: 25%;
+        background-color: rgb(234, 226, 226);
+        font-size: 15px;
+        margin-top: 20px;
+        padding: 10px 10px;
+      }
+      #inner {
+        /* border: 1px solid darkblue; */
+        height: 300px;
+        margin: 60px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
 
-            gap: 30px;
-        }
-        #inner>#inner_1{
-            /* border: 1px solid darkblue; */
-            height: 250px;
-            
-            width: 100%;
-           
-        }
-        #inner>#inner_1>img{
-            width: 100%;
-        }
-        
-        #inner>#inner_2{
-            /* border: 1px solid darkblue; */
-            height: 200px;
-            font-size: 15px;
-            
-            width: 100%;
-           
-        }
-        #inner>#inner_3{
-            /* border: 1px solid darkblue; */
-            height: 270px;
-            font-size: 15px;
-            
-            width: 100%;
-            background-color: rgb(247, 239, 239);
-            padding-left: 10px;
-           
-        }
-        #inner>#inner_4{
-            font-size: 15px;    
-            color: blue;
-            margin-top:-30px;
-             text-align: center;
-        }
+        gap: 30px;
+      }
+      #inner > #inner_1 {
+        /* border: 1px solid darkblue; */
+        height: 250px;
 
-        #outer{
-            padding: 10px 20px;
-            border: 1px solid blue;
-            text-align: center;
-            width: 200px;
-            margin-left: 50px;
-            margin-top: -50px;
-            font-size: 20px;
-            border-radius: 10px;
-        }
-        
+        width: 100%;
+      }
+      #inner > #inner_1 > img {
+        width: 100%;
+      }
 
-        table.generic, table.orangebox, table.greybox, table.lightcurvedbox, table.orangecurvedbox, table.orangeborderbox, table.greencurvedbox, table.lightbordercurvedbox, table.blueedgebox, table.lightcurvedrow, table.lightbordercurvedrow, table.lightreversebox, table.darkbluecurvedbox {
-    border-collapse: collapse;
-    border-spacing: 0px;
-    width: 100%;
-}
+      #inner > #inner_2 {
+        /* border: 1px solid darkblue; */
+        height: 200px;
+        font-size: 15px;
 
+        width: 100%;
+      }
+      #inner > #inner_3 {
+        /* border: 1px solid darkblue; */
+        height: 270px;
+        font-size: 15px;
 
-        
+        width: 100%;
+        background-color: rgb(247, 239, 239);
+        padding-left: 10px;
+      }
+      #inner > #inner_4 {
+        font-size: 15px;
+        color: blue;
+        margin-top: -30px;
+        text-align: center;
+      }
+
+      #outer {
+        padding: 10px 20px;
+        border: 1px solid blue;
+        text-align: center;
+        width: 200px;
+        margin-left: 50px;
+        margin-top: -50px;
+        font-size: 20px;
+        border-radius: 10px;
+      }
+
+      table.generic,
+      table.orangebox,
+      table.greybox,
+      table.lightcurvedbox,
+      table.orangecurvedbox,
+      table.orangeborderbox,
+      table.greencurvedbox,
+      table.lightbordercurvedbox,
+      table.blueedgebox,
+      table.lightcurvedrow,
+      table.lightbordercurvedrow,
+      table.lightreversebox,
+      table.darkbluecurvedbox {
+        border-collapse: collapse;
+        border-spacing: 0px;
+        width: 100%;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <div id="nav"></div>
     <div id="frame">
-        <div id="age">
-            <div id="main1">
-                <div id="inner">
-                <div id="inner_1">
-                    <img src="https://m.ftscrt.com/static/member/_soda_shared.jpg" alt="">
-                    
-                </div>
-                
-                <div id="inner_2">
-
-                    <p>POSTS</p>
-                <h3>0</h3>
-                <p>POSTS</p>
-                <h3>0</h3>
-                <p>POSTS</p>
-                <h3>0</h3>
-                </div>
-                <div id="inner_3">
-                    <br>
-                    <P>WEIGHT HISTORY</P>
-                    <br>
-        
-                    <P>Start Weight</P>
-                    <h3 style="color: blue;">60kg</h3>
-                    <br>
-                    <p>Current Weight</p>
-                    <h3>60kg</h3>
-                    <p>Performance <span style="font-weight: bold;">:steady</span></p>
-                    <br>
-
-                    <p>Goal Weight</p>
-                    <h3>55kg</h3>
-                    <p>Still to go <span><h3>5 kg</h3></span></p>
-
-                </div>
-                <div id="inner_4"><h3>Profile Name</h3></div>
-                
+      <div id="age">
+        <div id="main1">
+          <div id="inner">
+            <div id="inner_1">
+              <img
+                src="https://m.ftscrt.com/static/member/_soda_shared.jpg"
+                alt=""
+              />
             </div>
-            <div id="outer"><p>Enter Bio</p></div>
-            </div>
-            
-            <div id="main2">
-                <h3 style="margin-left: 20px;">Other Related Links</h3>
-                <br>
-                <h5 style="margin-left: 20px;">Members</h5>
-                <hr>
-               
-                <table class="generic">
-                    <tbody><tr>
-                        <td width="50%">
-                            <a class="alt" title="journals" href=""><span class="users_b">&nbsp;</span> <span><img src="" alt=""></span> Members</a>
-                        </td>
-                        <td width="50%">
-                            <a class="alt" title="forums" href=""><span class="quote_b">&nbsp;</span>Forums</a>
-                        </td>
-                    </tr>
-                </tbody></table>
-                
 
+            <div id="inner_2">
+              <p>Name</p>
+              <h3 id="name">0</h3>
+              <p>Gender</p>
+              <h3 id="gender">0</h3>
+              <p>POSTS</p>
+              <h3>0</h3>
             </div>
+            <div id="inner_3">
+              <br />
+              <p>WEIGHT HISTORY</p>
+              <br />
+
+              <p>Start Weight</p>
+              <h3 style="color: blue">60kg</h3>
+              <br />
+              <p>Current Weight</p>
+              <h3 id="cur_weight">60kg</h3>
+              <p>Performance <span style="font-weight: bold">:steady</span></p>
+              <br />
+
+              <p>Goal Weight</p>
+              <h3>55kg</h3>
+              <p>
+                Still to go <span><h3>5 kg</h3></span>
+              </p>
+            </div>
+            <div id="inner_4"><h3>Profile Name</h3></div>
+          </div>
+          <div id="outer"><p>Enter Bio</p></div>
         </div>
-        
-        
-    <div id="footer"></div>
-       
+
+        <div id="main2">
+          <h3 style="margin-left: 20px">Other Related Links</h3>
+          <br />
+          <h5 style="margin-left: 20px">Members</h5>
+          <hr />
+
+          <table class="generic">
+            <tbody>
+              <tr>
+                <td width="50%">
+                  <a class="alt" title="journals" href=""
+                    ><span class="users_b">&nbsp;</span>
+                    <span><img src="" alt="" /></span> Members</a
+                  >
+                </td>
+                <td width="50%">
+                  <a class="alt" title="forums" href=""
+                    ><span class="quote_b">&nbsp;</span>Forums</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="footer"></div>
     </div>
-</body>
+  </body>
 </html>
 <script type="module">
-    import navbar from "./scripts/components/navbar.js"
-    document.getElementById("nav").innerHTML = navbar();
-    import footer from "./scripts/components/footer.js"
-    document.getElementById("footer").innerHTML = footer();
-
+  import navbar from "./scripts/components/navbar.js";
+  document.getElementById("nav").innerHTML = navbar();
+  import footer from "./scripts/components/footer.js";
+  document.getElementById("footer").innerHTML = footer();
+  let user = JSON.parse(localStorage.getItem("fatsecret_data"));
+  user = user[user.length - 1];
+  let name = document.getElementById("name");
+  let gender = document.getElementById("gender");
+  let current = document.getElementById("current");
+  name.innerText = user.name;
+  gender.innerText = user.gender;
+  current.innerText = user.current_weight;
 </script>

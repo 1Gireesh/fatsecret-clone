@@ -1,10 +1,12 @@
 export default function navbar() {
   let userdata = JSON.parse(localStorage.getItem("cred")) || {};
   let src,
+    status1 = "SignIn",
     user = "Register";
   if (userdata.signinkey) {
-    src = "./nameclick.html";
+    src = "./name_click.html";
     user = userdata.name;
+    status1 = "Sign Out";
   } else {
     src = "./signupform.html";
   }
@@ -13,7 +15,7 @@ export default function navbar() {
         <div class="nav_top_box">
           <a href="${src}">${user}</a>
           <hr />
-          <a href="">Sign In</a>
+          <a href="">${status1}</a>
         </div>
       </div>
       <div class="nav_mid">

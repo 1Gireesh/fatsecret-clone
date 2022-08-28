@@ -24,36 +24,36 @@
           <div class="upperbox">
             <h1>Your Recommended Daily Intake is:</h1>
             <div class="cal_rec">
-              <input type="number" value="2600" />
+              <input type="number" value="2600" id="recmnd_cals" />
               <p>Calories per Day</p>
             </div>
             <div class="cal_rec_text">
               Based on your gender, age, height, weight, activity level and
               Goals, we have calculated a Recommended Daily intake(RDI) of
-              <span id="recmnd_cals">2600</span>
+              <span id="recmnd_cals_1">2600</span>
               calories for you
             </div>
             <h1>Share My:Weight, Journal & Calendar</h1>
             <div class="share_tar">
               <div>
-                <input type="radio" />
-                <span>With everyone</span>
+                <input type="radio" name="share" id="share_tar_3" />
+                <label for="share_tar_3">With Everyone</label>
                 <img
                   src="https://a.ftscrt.com/static/images/registration/share_everyone.png"
                   alt=""
                 />
               </div>
               <div>
-                <input type="radio" />
-                <span>With my followers</span>
+                <input type="radio" name="share" id="share_tar_1" />
+                <label for="share_tar_1">With my followers</label>
                 <img
                   src="https://a.ftscrt.com/static/images/registration/share_buddies.png"
                   alt=""
                 />
               </div>
               <div>
-                <input type="radio" />
-                <span>Keep private</span>
+                <input type="radio" name="share" id="share_tar_2" />
+                <label for="share_tar_2">Keep private</label>
                 <img
                   src="https://a.ftscrt.com/static/images/registration/share_private.png"
                   alt=""
@@ -112,6 +112,7 @@
     </div>
   </body>
 </html>
+<script src="./scripts/signupnext.js"></script>
 <!-- links for images  -->
 <!-- bio img 1  - https://a.ftscrt.com/static/images/registration/add_bio.png -->
 <!-- img2 with everyone  - https://a.ftscrt.com/static/images/registration/share_everyone.png -->

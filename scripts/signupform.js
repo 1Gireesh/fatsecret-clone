@@ -49,6 +49,8 @@ function formsubmit() {
     deit_goal: deit_goal,
     weight_goal: goal_weight,
   };
+  console.log(obj);
   userdata.push(obj);
   localStorage.setItem("fatsecret_data", JSON.stringify(userdata));
+  window.open("signupnext.html", "_blank");
 }

@@ -6,8 +6,8 @@
 // TODO: Very active (hard exercise/sports 6-7 days a week): calories = BMR × 1.725; and */
 // TODO: If you are extra active (very hard exercise/sports & a physical job): calories = BMR × 1.9. */
 
-let userdata = JSON.parse(localStorage.getItem("fatsecret_data")) || [];
-
+let userdata = JSON.parse(localStorage.getItem("fatsecret_data"));
+console.log("fine");
 let user = userdata[userdata.length - 1];
 let dob = user.dob;
 let yearofbirth = +dob.slice(0, 4);

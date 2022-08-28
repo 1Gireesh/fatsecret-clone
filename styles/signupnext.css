@@ -147,3 +147,12 @@
   cursor: pointer;
   background: rgb(28, 138, 46);
 }
+#recmnd_cals_1 {
+  font-weight: bold;
+  color: green;
+  font-size: 20px;
+}
+.share_tar label,
+.share_tar img {
+  cursor: pointer;
+}
